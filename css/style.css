@@ -255,6 +255,7 @@ body {
 }
 
 .cards .items {
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -272,6 +273,9 @@ body {
 }
 
 .cards .card-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
