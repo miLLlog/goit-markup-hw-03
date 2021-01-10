@@ -216,6 +216,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.address .mail {
+  margin: 9px 0px;
+}
+
 /* ==========portpholio===========*/
 
 /* button */
