@@ -116,6 +116,7 @@ body {
   min-height: 600px;
   text-align: center;
   padding-top: 200px;
+  background-image: url();
 }
 
 .hero-title {
@@ -200,13 +201,18 @@ body {
   min-height: 250px;
   padding-top: 60px;
 }
-.footer .contacts {
+
+.address {
+  font-style: normal;
+}
+
+.footer .address {
   margin-top: 20px;
 }
-.contacts .city {
+.address .city {
   color: #ffffff;
 }
-.contacts .item {
+.address .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
