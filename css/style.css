@@ -10,6 +10,7 @@
   --white-color: #ffffff;
   --bg-color: #f5f4fa;
   --bg-color-black: #2f303a;
+  --black-color: #000000;
 }
 
 body {
@@ -61,7 +62,7 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.192;
-  color: #000000;
+  color: var(--black-color);
   margin-right: 93px;
 }
 
@@ -200,6 +201,10 @@ body {
   background-color: var(--bg-color-black);
   min-height: 250px;
   padding-top: 60px;
+}
+
+.footer .logo {
+  color: var(--white-color);
 }
 
 .address {
