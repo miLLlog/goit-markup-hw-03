@@ -20,7 +20,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 1600px;
 }
 
 .link {
@@ -115,6 +114,8 @@ body {
 .hero {
   background-color: var(--bg-color-black);
   min-height: 600px;
+  width: 1600px;
+  margin: 0 auto;
   text-align: center;
   padding-top: 200px;
   background-image: url();
@@ -178,6 +179,8 @@ body {
 
 .crew {
   background-color: var(--bg-color);
+  width: 1600px;
+  margin: 0 auto;
   margin-top: 94px;
   padding-top: 94px;
   min-height: 650px;
@@ -199,6 +202,8 @@ body {
 
 .footer {
   background-color: var(--bg-color-black);
+  width: 1600px;
+  margin: 0 auto;
   min-height: 250px;
   padding-top: 60px;
 }
