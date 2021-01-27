@@ -281,12 +281,14 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .cards .items {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .cards .items:nth-child(3n) {
@@ -296,14 +298,14 @@ body {
   margin-bottom: 0;
 }
 .cards .par {
+  margin: 0 24px 20px 24px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
 }
 
 .cards .card-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin: 20px 24px 4px 24px;
 
   font-size: 18px;
   line-height: 2;
